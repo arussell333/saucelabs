@@ -13,7 +13,7 @@ public class LaunchiosApponSauce {
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 	
 	//	curl -u arussell333:a5a8a714-4ab8-40e5-93b0-462a6912b78e -X POST -H "Content-Type: application/octet-stream" https://saucelabs.com/rest/v1/storage/arussell333/uc.zip?overwrite=true --data-binary @/Users/adamrussell/Desktop/uc.zip
-		
+		//
 		DesiredCapabilities caps = DesiredCapabilities.iphone();
 		caps.setCapability("browserName", "");
 		caps.setCapability("appiumVersion", "1.5.1");
